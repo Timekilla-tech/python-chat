@@ -37,5 +37,5 @@ class ChatClient:
 
 if __name__ == "__main__":
     name = input("Enter your username: ")
-    client = ChatClient(host='172.16.153.149', username=name)
+    client = ChatClient(host='Ip address', username=name)
     client.start()

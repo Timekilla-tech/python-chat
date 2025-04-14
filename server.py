@@ -2,7 +2,7 @@ import socket
 import threading
 
 class ChatServer:
-    def __init__(self, host='172.16.153.149', port=12345):
+    def __init__(self, host='Ip address', port=12345):
         self.clients = []
         self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.server_socket.bind((host, port))
